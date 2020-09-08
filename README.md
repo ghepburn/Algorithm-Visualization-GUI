@@ -1,10 +1,9 @@
 # Algorithm-Visualization-GUI
-PyQt5 single-page interface which steps through chosen algorithms. Built using model-view-controller and observation design patterns. Code focused on OOP. 
-
-The structure of the project was built using the Model-View-Controller, and Observer design patterns.
-The view holds the user interface PyQt5 code and methods for changing the user interface.  
-The view sends triggered events to the controller, and the controller writes to the models.
-The models perform logic, and then notify subscribed observers of changes.  
-The view receives the notifications and makes changes accordingly using its methods.
-
-
+A Python PyQt5 single-page user interface which visually displays the process of common search and sort algorithms.
+# Details
+This project was created and re-factored multiple times with the motivation to increase my knowledge of object-oriented coding, project structure for optimal code reuse, and algorithms.
+Using the user interface, the user first clicks to generate a bar chart visualizing a selected amount of random numbers. Next, the user can click to choose whether to “search” or “sort”.  Common algorithms are displayed as choices depending on the users chosen functionality. Once functionality is determined, the user can click to “step” or “finish” the chosen algorithm. The bar chart will change to visually display the changes the algorithm is making.
+# What was learned
+-	My knowledge and comfort in Python, OOP, and common programming concepts was increased. Generators were a specific programing concept which was heavily looked at and applied. 
+-	Project structure was re-factored several times, each time increasing my ability to plan out the flow of logic.  
+ 
